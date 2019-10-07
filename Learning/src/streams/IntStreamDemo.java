@@ -29,6 +29,9 @@ public class IntStreamDemo {
 		System.out.println("The number of digits in array values is "
 				+ Stream.of(values).map(e -> e + "").mapToInt(e -> e.length()).sum());
 
+		int[][] m = {{1, 2}, {3, 4}, {5, 6}};
+		System.out.println(Stream.of(m)
+		.mapToInt(e -> IntStream.of(e).sum()).sum());
 	}
 
 }
