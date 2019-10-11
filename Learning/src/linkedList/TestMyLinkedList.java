@@ -1,7 +1,5 @@
 package linkedList;
 
-import java.util.LinkedList;
-
 public class TestMyLinkedList {
 
 	public static void main(String[] args) {
@@ -41,7 +39,7 @@ public class TestMyLinkedList {
 		//list.remove(list.size() - 1); // Remove the last element
 		System.out.print("(10) " + list + "\n(11) ");
 
-		LinkedList<Integer> list2 = new LinkedList<>();
+		//LinkedList<Integer> list2 = new LinkedList<>();
 		
 		//for (String s : list)
 		//	System.out.print(s.toUpperCase() + " ");
